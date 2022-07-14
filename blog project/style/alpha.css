@@ -1,0 +1,52 @@
+#Sidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+
+#Sidenav a:hover {
+    left: 0;
+}
+
+#home {
+    display: grid;
+    top: 20px;
+    background-color: #04AA6D;
+}
+
+#about {
+    top: 80px;
+    background-color: #050f16;
+}
+
+body {
+    display: grid;
+    font-family: sans-serif;
+    padding: 20px;
+    background: #179217;
+}
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+.column {
+    float: right;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
